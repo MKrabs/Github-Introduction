@@ -1,4 +1,5 @@
 # Github-Introduction 🐙
+
 E-Portfolio about GitHub and it's management tools / workflows
 
 Welcome to my small E-Portfolio about Github. I will try to explain the basics of GitHub, what it can do to ease your workflows and how it can help you managing your projects with you and your team.
@@ -38,6 +39,12 @@ From there on you can create custom rules for individual (or multiple) branches.
 [Learn more about branch protection &#8594;](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests)
 
 ## Workflows 🌊
+[![alt](https://img.shields.io/badge/made%20with-Shields%20IO-informational)](https://shields.io/category/license) 
+[![alt](https://img.shields.io/badge/Build-success-success)](https://github.com/13TRIS/13TRIS/actions/runs/2147853842)
+[![alt](https://img.shields.io/badge/Tests-failed-critical)](https://github.com/13TRIS/13TRIS/actions/runs/1450643061)
+[![alt](https://img.shields.io/badge/version-v0.16-blue)](https://github.com/MKrabs/Github-Introduction/releases) 
+[![alt](https://img.shields.io/badge/Hello-World-ff6969)](https://github.com/MKrabs/Github-Introduction)
+
 GitHub workflows are scripts that run whenever they are called: either after a push or when a pull request is triggered, or manually if you're feeling frisky. The scripts run specified code (often your own code) and return the success status (success, failure, abtortion). The workflows are part of the whole GitHub Actions service to help you automate a lot of boring / repetitive stuff.
 
 Go to https://github.com/Owner/repo/tree/branch/.github/workflows, to find all your Workflows as `.yml` files.
@@ -118,6 +125,8 @@ All the work is automated, what is this "work" we have to do.
 
 # Project 🗃
 
+(Update late 2021: GitHub added Projects [beta &#8594;](https://docs.github.com/en/issues/trying-out-the-new-projects-experience/using-insights-with-projects), which includes many new agile project management things (for example burn down chart for individual projects (very cool, but unaccessible for now)).
+
 GitHub provides a nice way of creating, managing and integrating Tasks, Notes, Pullrequest and Boards, to organise and handle large amounts of work into one (or more) places.
 
 ## Issues 🗑
@@ -161,6 +170,37 @@ The boards can be found under https://github.com/Owner/repo/projects.
 On the lanes a the board are cards. Cards themselves are either just plain cards with no relation to anything than the borad + a descption, or they are the Ticket itself, represented as a card. To add a card, go to a board and click the little + on the top right of a lane (or the top right '+ Add Cards' label).
 
 [Learn more about cards &#8594;](https://docs.github.com/en/issues/organizing-your-work-with-project-boards/tracking-work-with-project-boards/adding-notes-to-a-project-board)
+
+## Insights
+
+Git Insights is an analytics tool to give you insights on your projects and teams. You can collect and analyze all your commits, pull requests, and issues data. There are two parts to a project's insights: Data Collectionand Data Analysis.
+
+_Example of a branch chart / network_
+
+https://github.com/13TRIS/13TRIS/network
+
+_Example of a burnup chart_
+
+<img src="https://docs.github.com/assets/cb-48980/images/help/issues/burnup-example.png" height="300">
+
+_Example of a insights dashboard_
+
+<img src="https://docs.github.com/assets/cb-71018/images/help/discussions/discussions-dashboard.png" height="300">
+
+## Codespaces
+
+Press <kbd> . </kbd> on any repository to find out :smirk:
+
+## Future of Github ?
+There is no easy prediciment of GitHub's / Microsoft's future plans, but existing projects are on the horizon: GitHub Co-Pilot is one example. It's already able to help automate the programming part itself by predicting what the enigneer is thinking of implementing and suggesting some next lines of code. all of that based on GPT-3 and bilions of lines of code (i.e. StackOverflow).
+
+<img src="https://miro.medium.com/max/700/0*oRRpMJ9XqkRnYLhW.png" width="75" height="75">
+
+_It's all fun and games till the default line of code gets changed to "Goodbye World"_
+
+[Learn more about Co-Pilot &#8594;](https://copilot.github.com/)
+
+## 
 
 Thank you for reading, i hope this wasn't too compact / short. To be honest, GitHub provides such an extensive documentation, you could almost not read my handout and jsut spend hours over there.
 
